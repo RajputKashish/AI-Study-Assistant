@@ -1,0 +1,28 @@
+{
+  "name": "frontend-app",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@reduxjs/toolkit": "1.9.5",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "axios": "latest",
+    "jest": "latest",
+    "msw": "latest",
+    "pdfjs-dist": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-redux": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "baseline-browser-mapping": "^2.8.31",
+    "vite": "latest"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5173"
+  }
+}
